@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: ind_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving India.
+    tests:
+      - is_india
+
+  - name: afg_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving Afghanistan.
+    tests:
+      - is_afghanistan
+
+  - name: aus_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving Australia.
+    tests:
+      - is_australia
+
+  - name: eng_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving England.
+    tests:
+      - is_england
+
+  - name: sa_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving South Africa.
+    tests:
+      - is_southafrica
+
+  - name: wi_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving West Indies.
+    tests:
+      - is_westindies
+
+  - name: pak_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving Pakistan.
+    tests:
+      - is_pakistan
+
+  - name: sl_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving Sri Lanka.
+    tests:
+      - is_srilanka
+
+  - name: nz_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving New Zealand.
+    tests:
+      - is_newzealand
+
+  - name: ban_matches
+    description: >
+      Contains match-level data for all ICC CWC 2019 matches involving Bangladesh.
+    tests:
+      - is_bangladesh
+
+  - name: no_result_matches
+    description: >
+      Contains match-level data for ICC CWC 2019 matches that ended with no result (abandoned or rain-affected).
+    tests:
+      - is_no_result_matches

@@ -1,0 +1,77 @@
+version: 2
+
+models:
+  - name: stg_cwc2019
+    description: 
+      Contains all 48 matches from ICC CWC 2019, including teams, venues,
+      results, and total runs scored in each match. Data originates from
+      the ETL pipeline loaded into Snowflake via pandas.
+
+    columns:
+      - name: MATCH_NUMBER
+        description: "Unique match number for each fixture."
+        tests:
+          - not_null
+          - unique
+
+      - name: HOME_TEAM
+        description: "The team designated as playing at home."
+        tests:
+          - not_null
+
+      - name: AWAY_TEAM
+        description: "The team designated as playing away."
+        tests:
+          - not_null
+
+      - name: DATE
+        description: "Date on which the match was played."
+        tests:
+          - not_null
+
+      - name: STADIUM_NAME
+        description: "The stadium where the match took place."
+        tests:
+          - not_null
+
+      - name: CITY
+        description: "The city where the stadium is located."
+        tests:
+          - not_null
+
+      - name: WINNER
+        description: >
+          The team that won the match. If the match was not completed,
+          this field may show 'No Result'.
+        tests:
+          - not_null
+          - accepted_values:
+              values: [
+                'England', 'South Africa', 'West Indies', 'Pakistan',
+                'New Zealand', 'Sri Lanka', 'Afghanistan', 'Australia',
+                'Bangladesh', 'India', 'No Result'
+              ]
+
+      - name: PLAYER_OF_THE_MATCH
+        description: "Player awarded as Player of the Match."
+        tests:
+          - not_null:
+              where:  WINNER != 'No Result'
+
+      - name: MATCH_STAGE
+        description: "Stage of the tournament for the match (e.g. Group Stage, Semi Final, Final)."
+        tests:
+          - not_null
+          - accepted_values:
+              values: [
+                'Group Stage',
+                'Semi Final 1',
+                'Semi Final 2',
+                'Final'
+              ]
+
+      - name: TOTAL_RUNS
+        description: "Total runs scored in the match by both teams combined."
+        tests:
+          - not_null
+

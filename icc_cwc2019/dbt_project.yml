@@ -1,0 +1,10 @@
+name: icc_cwc2019
+version: '1.0.0'
+
+profile: icc_cwc2019
+
+model-paths: ["models"]
+
+models:
+  icc_cwc2019:
+    +materialized: view

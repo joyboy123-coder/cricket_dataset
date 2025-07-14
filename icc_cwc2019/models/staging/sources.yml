@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: CRICKET_SCHEMA         # your schema name
+    database: CRICKET_DB         # ✅ your correct database name
+    tables:
+      - name: CRICKET
+        description: "Cleaned ICC CWC 2019 dataset loaded via Python ETL"

@@ -1,0 +1,49 @@
+MATCH NUMBER,HOME TEAM,AWAY TEAM,DATE,STADIUM NAME,CITY,WINNER,PLAYER OF THE MATCH,MATCH STAGE,TOTAL RUNS
+1,England,South Africa,2019-05-30 10:30:00,The Oval,London,England,Ben Stokes,Group Stage,518
+2,West Indies,Pakistan,2019-05-31 10:30:00,Trent Bridge,Nottingham,West Indies,Oshane Thomas,Group Stage,213
+3,New Zealand,Sri Lanka,2019-06-01 10:30:00,Sophia Gardens,Cardiff,New Zealand,Matt Henry,Group Stage,273
+4,Afghanistan,Australia,2019-06-01 13:30:00,Bristol County Ground,Bristol,Australia,David Warner,Group Stage,416
+5,South Africa,Bangladesh,2019-06-02 10:30:00,The Oval,London,Bangladesh,Shakib Al Hasan,Group Stage,557
+6,England,Pakistan,2019-06-03 10:30:00,Trent Bridge,Nottingham,Pakistan,Mohammad Hafeez,Group Stage,682
+7,Afghanistan,Sri Lanka,2019-06-04 10:30:00,Sophia Gardens,Cardiff,Sri Lanka,Nuwan Pradeep,Group Stage,353
+8,South Africa,India,2019-06-05 10:30:00,The Rose Bowl,Southampton,India,Rohit Sharma,Group Stage,457
+9,Bangladesh,New Zealand,2019-06-05 13:30:00,The Oval,London,New Zealand,Ross Taylor,Group Stage,492
+10,Australia,West Indies,2019-06-06 10:30:00,Trent Bridge,Nottingham,Australia,Nathan Coulter-Nile,Group Stage,561
+11,Pakistan,Sri Lanka,2019-06-07 10:30:00,Bristol County Ground,Bristol,No Result,,Group Stage,0
+12,England,Bangladesh,2019-06-08 10:30:00,Sophia Gardens,Cardiff,England,Jason Roy,Group Stage,666
+13,Afghanistan,New Zealand,2019-06-08 13:30:00,The County Ground,Taunton,New Zealand,James Neesham,Group Stage,344
+14,India,Australia,2019-06-09 10:30:00,The Oval,London,India,Shikhar Dhawan,Group Stage,668
+15,South Africa,West Indies,2019-06-10 10:30:00,The Rose Bowl,Southampton,No Result,,Group Stage,0
+16,Bangladesh,Sri Lanka,2019-06-11 10:30:00,Bristol County Ground,Bristol,No Result,,Group Stage,0
+17,Australia,Pakistan,2019-06-12 10:30:00,The County Ground,Taunton,Australia,David Warner,Group Stage,573
+18,India,New Zealand,2019-06-13 10:30:00,Trent Bridge,Nottingham,No Result,,Group Stage,0
+19,England,West Indies,2019-06-14 10:30:00,The Rose Bowl,Southampton,England,Joe Root,Group Stage,425
+20,Sri Lanka,Australia,2019-06-15 10:30:00,The Oval,London,Australia,Aaron Finch,Group Stage,581
+21,South Africa,Afghanistan,2019-06-15 13:30:00,Sophia Gardens,Cardiff,South Africa,Imran Tahir,Group Stage,434
+22,India,Pakistan,2019-06-16 10:30:00,Old Trafford,Manchester,India,Rohit Sharma,Group Stage,347
+23,West Indies,Bangladesh,2019-06-17 10:30:00,The County Ground,Taunton,Bangladesh,Shakib Al Hasan,Group Stage,654
+24,England,Afghanistan,2019-06-18 10:30:00,Old Trafford,Manchester,England,Eoin Morgan,Group Stage,644
+25,New Zealand,South Africa,2019-06-19 10:30:00,Edgbaston,Birmingham,New Zealand,Kane Williamson,Group Stage,532
+26,Australia,Bangladesh,2019-06-20 10:30:00,Trent Bridge,Nottingham,Australia,David Warner,Group Stage,714
+27,England,Sri Lanka,2019-06-21 10:30:00,Headingley,Leeds,Sri Lanka,Lasith Malinga,Group Stage,567
+28,India,Afghanistan,2019-06-22 10:30:00,The Rose Bowl,Southampton,India,Jasprit Bumrah,Group Stage,653
+29,West Indies,New Zealand,2019-06-22 13:30:00,Old Trafford,Manchester,New Zealand,Kane Williamson,Group Stage,411
+30,Pakistan,South Africa,2019-06-23 10:30:00,Lord's,London,Pakistan,Haris Sohail,Group Stage,478
+31,Bangladesh,Afghanistan,2019-06-24 10:30:00,The Rose Bowl,Southampton,Bangladesh,Shakib Al Hasan,Group Stage,576
+32,England,Australia,2019-06-25 10:30:00,Lord's,London,Australia,Aaron Finch,Group Stage,400
+33,New Zealand,Pakistan,2019-06-26 10:30:00,Edgbaston,Birmingham,Pakistan,Babar Azam,Group Stage,536
+34,West Indies,India,2019-06-27 10:30:00,Old Trafford,Manchester,India,Virat Kohli,Group Stage,529
+35,Sri Lanka,South Africa,2019-06-28 10:30:00,The Riverside Ground,Durham,South Africa,Dwaine Pretorius,Group Stage,640
+36,Pakistan,Afghanistan,2019-06-29 10:30:00,Headingley,Leeds,Pakistan,Imad Wasim,Group Stage,536
+37,New Zealand,Australia,2019-06-29 13:30:00,Lord's,London,Australia,Alex Carey,Group Stage,568
+38,England,India,2019-06-30 10:30:00,Edgbaston,Birmingham,England,Jonny Bairstow,Group Stage,491
+39,Sri Lanka,West Indies,2019-07-01 10:30:00,The Riverside Ground,Durham,Sri Lanka,Avishka Fernando,Group Stage,653
+40,Bangladesh,India,2019-07-02 10:30:00,Edgbaston,Birmingham,India,Rohit Sharma,Group Stage,600
+41,England,New Zealand,2019-07-03 10:30:00,The Riverside Ground,Durham,England,Jonny Bairstow,Group Stage,491
+42,Afghanistan,West Indies,2019-07-04 10:30:00,Headingley,Leeds,West Indies,Shai Hope,Group Stage,599
+43,Pakistan,Bangladesh,2019-07-05 10:30:00,The Riverside Ground,Durham,Pakistan,Shaheen Afridi,Group Stage,536
+44,Sri Lanka,India,2019-07-06 10:30:00,Headingley,Leeds,India,Rohit Sharma,Group Stage,529
+45,Australia,South Africa,2019-07-06 13:30:00,Old Trafford,Manchester,South Africa,Faf du Plessis,Group Stage,640
+46,India,New Zealand,2019-07-09 10:30:00,Old Trafford,Manchester,New Zealand,Matt Henry,Semi Final 1,460
+47,Australia,England,2019-07-11 10:30:00,Edgbaston,Birmingham,England,Chris Woakes,Semi Final 2,449
+48,New Zealand,England,2019-07-14 10:30:00,Lord's,London,England,Ben Stokes,Final,482
