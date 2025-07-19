@@ -1,3 +1,5 @@
+<div align="left">
+
 # 📂 Data Folder
 
 This folder contains datasets used in the project.
@@ -7,3 +9,5 @@ This folder contains datasets used in the project.
 
 ⚠️ **Note:**  
 Please do not edit these files manually. All changes should be made through the ETL scripts.
+
+</div>

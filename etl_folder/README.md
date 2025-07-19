@@ -1,3 +1,5 @@
+<div align="left">
+
 # ⚙️ ETL Folder
 
 This folder contains scripts for the ETL (Extract, Transform, Load) process:
@@ -11,3 +13,5 @@ Run these scripts in order for a complete ETL pipeline.
 
 ℹ️ **Tip:**  
 Check the script comments for usage instructions and dependencies.
+
+</div>
